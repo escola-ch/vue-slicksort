@@ -4,6 +4,9 @@ import { hasOwnProperty } from '../utils';
 import { SlickItem } from './SlickItem';
 
 export const SlickList = defineComponent({
+  configureCompat: {
+    MODE: 3,
+  },
   name: 'SlickList',
   mixins: [ContainerMixin],
   props: {
