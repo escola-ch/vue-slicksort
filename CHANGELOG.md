@@ -1,3 +1,7 @@
+## [2.0.6-alpha.4](https://github.com/escola-ch/vue-slicksort/compare/v2.0.6-alpha.3...v2.0.6-alpha.4) (2023-08-18)
+
+
+
 ## [2.0.6-alpha.3](https://github.com/escola-ch/vue-slicksort/compare/v2.0.6-alpha.2...v2.0.6-alpha.3) (2023-08-18)
 
 
