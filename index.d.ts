@@ -1,4 +1,4 @@
-declare module 'vue-slicksort' {
+declare module '@escola-ch/vue-slicksort' {
   import { DirectiveOptions, Component, Plugin } from 'vue';
 
   export const ContainerMixin: Component;
