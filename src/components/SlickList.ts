@@ -5,7 +5,7 @@ import { SlickItem } from './SlickItem';
 
 export const SlickList = defineComponent({
   configureCompat: {
-    MODE: 3,
+    MODE: 2,
   },
   name: 'SlickList',
   mixins: [ContainerMixin],

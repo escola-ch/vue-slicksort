@@ -2,7 +2,7 @@ import { h, defineComponent } from 'vue';
 
 export const DragHandle = defineComponent({
   configureCompat: {
-    MODE: 3,
+    MODE: 2,
   },
   props: {
     tag: {

@@ -3,7 +3,7 @@ import { ElementMixin } from '../ElementMixin';
 
 export const SlickItem = defineComponent({
   configureCompat: {
-    MODE: 3,
+    MODE: 2,
   },
   name: 'SlickItem',
   mixins: [ElementMixin],
