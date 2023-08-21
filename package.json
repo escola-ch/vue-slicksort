@@ -74,6 +74,7 @@
     "@typescript-eslint/parser": "^5.43.0",
     "@vitejs/plugin-vue": "^3.2.0",
     "@vitejs/plugin-vue-jsx": "^2.1.1",
+    "@vue/compat": "^3.3.4",
     "@vue/compiler-sfc": "^3.2.45",
     "@vue/test-utils": "^2.0.0-rc.6",
     "@vueuse/core": "^9.5.0",
@@ -107,6 +108,5 @@
   "files": [
     "index.d.ts",
     "dist/*"
-  ],
-  "dependencies": {}
+  ]
 }

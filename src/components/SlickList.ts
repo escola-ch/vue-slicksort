@@ -53,6 +53,6 @@ export const SlickList = defineComponent({
         }),
       );
     }
-    return h(this.tag, this.$slots.default?.());
+    return h(this.tag, typeof this.$slots.default === 'function' ? this.$slots.default() : this.$slots.default);
   },
 });

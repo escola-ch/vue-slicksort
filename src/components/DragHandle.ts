@@ -14,6 +14,6 @@ export const DragHandle = defineComponent({
     this.$el.sortableHandle = true;
   },
   render() {
-    return h(this.tag, this.$slots.default?.());
+    return h(this.tag, typeof this.$slots.default === 'function' ? this.$slots.default() : this.$slots.default);
   },
 });
